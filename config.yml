@@ -1,5 +1,5 @@
-baseURL: "http://zhibogogo.github.io/"
-title: Zhibo
+baseURL: "http://qwenlm.github.io/"
+title: Qwen
 paginate: 5
 theme: PaperMod
 
@@ -22,7 +22,7 @@ languages:
     languageName: 简体中文
     weight: 2
     params:
-      date_format: "2024年12月6日"
+      date_format: "2006年1月2日"
 
 
 minify:
@@ -31,15 +31,15 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: zhibo
-  description: "zhibo"
-  keywords: ["qwen", "large multimodel models", "blog"]
-  author: Zhibo Yang
+  title: Qwen
+  description: "Qwen"
+  keywords: ["multi-modal", "machine learning", "blog"]
+  author: Qwen Team
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
 
   # custom site variables
-  date_format: "December 6, 2024"
+  date_format: "January 2, 2006"
   default_theme: light # dark, light
   disable_theme_toggle: true
   disable_special_first_post: false
@@ -78,7 +78,7 @@ params:
     safari_pinned_tab:  "https://acd-assets.alicdn.com/acd_work/tongyi/assets/logo.svg"
 
   label:
-    text: "zhibo"
+    text: "Qwen"
     # icon: /image/logo.svg
     icon_svg: '<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
@@ -262,8 +262,8 @@ params:
 menu:
   main:
     - identifier: api
-      name: Homepage
-      url: /homepage
+      name: Resources
+      url: /resources
       weight: 10
     - identifier: blog
       name: Blog
@@ -273,7 +273,10 @@ menu:
       name: Publication
       url: /publication
       weight: 30
-
+    - identifier: about
+      name: About
+      url: /about
+      weight: 40
     # - identifier: search
     #   name: SEARCH
     #   url: /search
